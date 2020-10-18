@@ -30,7 +30,7 @@ import com.mystore.actioninterface.ActionInterface;
 import com.mystore.base.BaseClass;
 
 /**
- * @author Hitendra Verma added on 13th March2019
+ * @author Santosh added on 13th March2019
  *
  */
 public class Action extends BaseClass implements ActionInterface {
@@ -776,7 +776,7 @@ public class Action extends BaseClass implements ActionInterface {
 			e.getMessage();
 		}
 		// This new path for jenkins
-		String newImageString = "http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/" + filename + "_"
+		String newImageString = "http://localhost:8080/job/MavenDemoProject/ws/MyStoreProject/ScreenShots/" + filename + "_"
 				+ dateName + ".png";
 		return newImageString;
 	}
